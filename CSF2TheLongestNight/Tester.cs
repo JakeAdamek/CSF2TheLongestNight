@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSF2TheLongestNight
 {
-    class Program
+    class Tester
     {
         static void Main(string[] args)
         {
