@@ -22,17 +22,17 @@ namespace Library
             MaxLife = 10;
             MaxDamage = 3;
             Name = "A Bloody Zombie";
-            Life = 6;
+            Life = 100;
             HitChance = 20;
-            Block = 28;
+            Block = 10;
             MinDamage = 1;
-            Description = "It's a slow moving zombie. It looks like its already had a few meals.";
+            Description = "It's a slow moving zombie. It looks like it already had a few meals.";
             HasRedEyes = false;
         }//END DEFAULT ZOMBIE CTOR
 
         public override string ToString()
         {
-            return base.ToString() + (HasRedEyes ? "Has Red Eyes" : "Its eyes look normal...");
+            return base.ToString() + (HasRedEyes ? "This zombie has red eyes." : "The zombie's eyes look normal.");
         }//END TOSTRING
 
         public override int CalcBlock()
